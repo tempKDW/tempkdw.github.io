@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on tempkdw blog</title>
+    <link>https://tempkdw.github.io/tags/coding/</link>
+    <description>Recent content in coding on tempkdw blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 17 Feb 2021 20:40:20 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Early return에 대한 생각</title>
+      <link>https://tempkdw.github.io/posts/early_return/</link>
+      <pubDate>Wed, 17 Feb 2021 20:40:20 +0900</pubDate>
+      
+      <guid>https://tempkdw.github.io/posts/early_return/</guid>
+      <description>early return 이란 특정 상황에서 function 내 주요 로직이 실행되기 이전에 return을 함으로써 실행 cost를 줄이고 가독성을 높이는 방법이다.
+def notify(data): if not data.get(&amp;#34;to&amp;#34;): return False if data.get(&amp;#34;platform&amp;#34;) not in NOTIFY_PLATFORMS: return False return NOTIFY_PLATFORMS[data[&amp;#34;platform&amp;#34;]](data) 위의 경우에서 보듯이 알림을 주는 function에서 전처리를 통해 실제 로직이 실행 되기 이전에 return을 주는 것을 알 수 있다.
+안좋은 예로 보면
+def notify(data): if not data.get(&amp;#34;to&amp;#34;): return False elif data.get(&amp;#34;platform&amp;#34;) not in NOTIFY_PLATFORMS: return False else: return NOTIFY_PLATFORMS[data[&amp;#34;platform&amp;#34;]](data) 와 같이 if-elif-else 로 모든 로직을 감싸는 경우라고 생각 되는데, 이 경우는 해당 function의 정상 로직이 어느 분기인지 알기 힘들수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
