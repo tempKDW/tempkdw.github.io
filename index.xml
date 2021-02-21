@@ -8,6 +8,21 @@
     <language>ko-kr</language>
     <lastBuildDate>Wed, 17 Feb 2021 20:40:20 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Circular import에 대한 생각</title>
+      <link>https://tempkdw.github.io/posts/circular_import/</link>
+      <pubDate>Wed, 17 Feb 2021 20:40:20 +0900</pubDate>
+      
+      <guid>https://tempkdw.github.io/posts/circular_import/</guid>
+      <description>인터넷을 보면 많은 circular import 문제 해결 방법을 찾을 수 있다.
+대표적인 해결방법.
+def foo(): import smth ... 위와 같이 함수 내부에서 import 를 한다면 회피가 가능하다.
+프로그램은 문제 없이 동작하기 시작하고, 이후 이 문제는 그대로 잊혀진다.
+이게 옳은 방법일까?
+일단 해당 문제가 왜 발생하는 지부터 생각해보자.
+# foo.py import bar ... # bar.py import foo ... 이렇게 서로를 import 하는 경우 발생한다. 개발을 하다보면 흔하게 발생하는 경우인데, 단순히 위에 소개한 방법으로 회피하는 것만 고려하여 아쉬움이 있다.</description>
+    </item>
+    
+    <item>
       <title>Early return에 대한 생각</title>
       <link>https://tempkdw.github.io/posts/early_return/</link>
       <pubDate>Wed, 17 Feb 2021 20:40:20 +0900</pubDate>
