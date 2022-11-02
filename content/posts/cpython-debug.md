@@ -1,5 +1,6 @@
 ---
 title: "Python 내부의 C 코드 들여다보기"
+description: "macOS 에서 lldb 를 사용하여 cpython 의 동작을 살펴보는 방법"
 date: 2022-10-21T10:52:51+09:00
 tags: ["cpython", "lldb", "debug"]
 author: "Dongwook Kim"
