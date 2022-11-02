@@ -10,7 +10,34 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 23 Sep 2022 14:15:00 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 10:52:51 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cpython</title>
+      <link>https://tempkdw.github.io/tags/cpython/</link>
+      <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
+      
+      <guid>https://tempkdw.github.io/tags/cpython/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debug</title>
+      <link>https://tempkdw.github.io/tags/debug/</link>
+      <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
+      
+      <guid>https://tempkdw.github.io/tags/debug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lldb</title>
+      <link>https://tempkdw.github.io/tags/lldb/</link>
+      <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
+      
+      <guid>https://tempkdw.github.io/tags/lldb/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>pep</title>
       <link>https://tempkdw.github.io/tags/pep/</link>

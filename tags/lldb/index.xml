@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on tempkdw blog</title>
-    <link>https://tempkdw.github.io/posts/</link>
-    <description>Recent content in Posts on tempkdw blog</description>
+    <title>lldb on tempkdw blog</title>
+    <link>https://tempkdw.github.io/tags/lldb/</link>
+    <description>Recent content in lldb on tempkdw blog</description>
     <image>
       <url>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 21 Oct 2022 10:52:51 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 10:52:51 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/lldb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python 내부의 C 코드 들여다보기</title>
       <link>https://tempkdw.github.io/posts/cpython-debug/</link>
@@ -23,33 +23,6 @@ git clone https://github.com/python/cpython cd cpython 원하는 버전으로 br
 configure 옵션 참고
 git switch 3.9 ./configure --with-pydebug --with-openssl=$(brew --prefix openssl) make -s -j2 make 시 macOS 에서 &#39;lzma.h&#39; file not found 가 발생할 경우 brew 로 xz 를 설치하고 환경변수를 잡아준다.
 환경마다 path가 다를수 있음에 주의</description>
-    </item>
-    
-    <item>
-      <title>PEP 3119 ABC 번역</title>
-      <link>https://tempkdw.github.io/posts/abc_pep_3119/</link>
-      <pubDate>Fri, 23 Sep 2022 14:15:00 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/posts/abc_pep_3119/</guid>
-      <description>한국어 번역</description>
-    </item>
-    
-    <item>
-      <title>Circular import에 대한 생각</title>
-      <link>https://tempkdw.github.io/posts/circular_import/</link>
-      <pubDate>Sun, 21 Feb 2021 13:34:20 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/posts/circular_import/</guid>
-      <description>Circular import 문제를 해결하기 위한 방법.</description>
-    </item>
-    
-    <item>
-      <title>Early return에 대한 생각</title>
-      <link>https://tempkdw.github.io/posts/early_return/</link>
-      <pubDate>Wed, 17 Feb 2021 20:40:20 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/posts/early_return/</guid>
-      <description>분기와 early-return은 다르게 쓰여야 한다.</description>
     </item>
     
   </channel>
