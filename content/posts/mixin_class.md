@@ -10,6 +10,8 @@ draft: false
 
 앞서 포스팅한 [circular import 에 대한 생각](https://tempkdw.github.io/posts/circular_import/) 에서 해당 문제가 발생한 경우, 계층 구조를 먼저 생각해보자는 이야기를 했었다.
 
+이번에는 이어서 class 의 공통된 기능을 뽑아낼 때 계층 구조를 잘 잡기 위한 방법을 생각해보았다.
+
 일반적으로 Mixin class 는 하위 클래스들의 공통을 묶어 상위 abstract 로 뽑는데 사용되나, 가끔은 상위 클래스들에 공통된 기능을 붙이는 용도로도 사용된다.
 
 django 로 가정하고 예시를 든다.
