@@ -83,7 +83,7 @@ class B(NicknameInfo):
     D(Scorable)
 ```
 
-A, B 를 참조하므로 D는 당연히 A, B 에 의존성을 가지게 된다. 하지만 `Scorable` 이라는 공통 class 로 묶어내고 싶다면 A, B 에서 D 앱 내의 model 을 상속 받을 수 밖에 없다.
+A, B 를 참조하므로 D는 당연히 A, B 에 의존성을 가지게 된다. 하지만 `Scorable` 이라는 공통 class 로 묶어내고 싶다면 A, B 에서 D 앱 내의 model 을 상속 받는 경우를 가끔 보게 된다.
 
 ```python
 # D app
