@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on tempkdw blog</title>
-    <link>https://tempkdw.github.io/tags/python/</link>
-    <description>Recent content in python on tempkdw blog</description>
+    <title>refactoring on tempkdw blog</title>
+    <link>https://tempkdw.github.io/tags/refactoring/</link>
+    <description>Recent content in refactoring on tempkdw blog</description>
     <image>
       <url>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 18 Dec 2023 14:43:45 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 14:43:45 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/refactoring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mixin class 사용시 app 간 계층 구조</title>
       <link>https://tempkdw.github.io/posts/mixin_class/</link>
@@ -21,33 +21,6 @@
 일반적으로 Mixin class 는 하위 클래스들의 공통을 묶어 상위 abstract 로 뽑는데 사용되나, 가끔은 상위 클래스들에 공통된 기능을 붙이는 용도로도 사용된다.
 django 로 가정하고 예시를 든다.
 # A app class A(models.Model): nickname = models.CharField(...) def validate_nickname(self): ... # B app class B(models.Model): nickname = models.CharField(...) def validate_nickname(self): ... 이렇게 공통된 field 와 method가 있는 경우, 파편화를 막기 위해 abstract model 을 이용하여 상위의 abstract class 를 만든다.</description>
-    </item>
-    
-    <item>
-      <title>PEP 3119 ABC 번역</title>
-      <link>https://tempkdw.github.io/posts/abc_pep_3119/</link>
-      <pubDate>Fri, 23 Sep 2022 14:15:00 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/posts/abc_pep_3119/</guid>
-      <description>한국어 번역</description>
-    </item>
-    
-    <item>
-      <title>Circular import에 대한 생각</title>
-      <link>https://tempkdw.github.io/posts/circular_import/</link>
-      <pubDate>Sun, 21 Feb 2021 13:34:20 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/posts/circular_import/</guid>
-      <description>Circular import 문제를 해결하기 위한 방법.</description>
-    </item>
-    
-    <item>
-      <title>Early return에 대한 생각</title>
-      <link>https://tempkdw.github.io/posts/early_return/</link>
-      <pubDate>Wed, 17 Feb 2021 20:40:20 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/posts/early_return/</guid>
-      <description>분기와 early-return은 다르게 쓰여야 한다.</description>
     </item>
     
   </channel>
