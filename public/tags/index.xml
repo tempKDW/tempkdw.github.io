@@ -1,78 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on tempkdw blog</title>
     <link>https://tempkdw.github.io/tags/</link>
     <description>Recent content in Tags on tempkdw blog</description>
     <image>
+      <title>tempkdw blog</title>
       <url>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 21 Oct 2022 10:52:51 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 14:43:45 +0900</lastBuildDate>
+    <atom:link href="https://tempkdw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clean code</title>
+      <link>https://tempkdw.github.io/tags/clean-code/</link>
+      <pubDate>Mon, 18 Dec 2023 14:43:45 +0900</pubDate>
+      <guid>https://tempkdw.github.io/tags/clean-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>django</title>
+      <link>https://tempkdw.github.io/tags/django/</link>
+      <pubDate>Mon, 18 Dec 2023 14:43:45 +0900</pubDate>
+      <guid>https://tempkdw.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>https://tempkdw.github.io/tags/python/</link>
+      <pubDate>Mon, 18 Dec 2023 14:43:45 +0900</pubDate>
+      <guid>https://tempkdw.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>refactoring</title>
+      <link>https://tempkdw.github.io/tags/refactoring/</link>
+      <pubDate>Mon, 18 Dec 2023 14:43:45 +0900</pubDate>
+      <guid>https://tempkdw.github.io/tags/refactoring/</guid>
+      <description></description>
+    </item>
     <item>
       <title>cpython</title>
       <link>https://tempkdw.github.io/tags/cpython/</link>
       <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/tags/cpython/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>debug</title>
       <link>https://tempkdw.github.io/tags/debug/</link>
       <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/tags/debug/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>lldb</title>
       <link>https://tempkdw.github.io/tags/lldb/</link>
       <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/tags/lldb/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>pep</title>
       <link>https://tempkdw.github.io/tags/pep/</link>
       <pubDate>Fri, 23 Sep 2022 14:15:00 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/tags/pep/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://tempkdw.github.io/tags/python/</link>
-      <pubDate>Fri, 23 Sep 2022 14:15:00 +0900</pubDate>
-      
-      <guid>https://tempkdw.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>translation</title>
       <link>https://tempkdw.github.io/tags/translation/</link>
       <pubDate>Fri, 23 Sep 2022 14:15:00 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/tags/translation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>coding</title>
       <link>https://tempkdw.github.io/tags/coding/</link>
       <pubDate>Sun, 21 Feb 2021 13:34:20 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/tags/coding/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>debug on tempkdw blog</title>
     <link>https://tempkdw.github.io/tags/debug/</link>
     <description>Recent content in debug on tempkdw blog</description>
     <image>
+      <title>tempkdw blog</title>
       <url>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 21 Oct 2022 10:52:51 +0900</lastBuildDate><atom:link href="https://tempkdw.github.io/tags/debug/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 10:52:51 +0900</lastBuildDate>
+    <atom:link href="https://tempkdw.github.io/tags/debug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python 내부의 C 코드 들여다보기</title>
       <link>https://tempkdw.github.io/posts/cpython-debug/</link>
       <pubDate>Fri, 21 Oct 2022 10:52:51 +0900</pubDate>
-      
       <guid>https://tempkdw.github.io/posts/cpython-debug/</guid>
       <description>macOS 에서 lldb 를 사용하여 cpython 의 동작을 살펴보는 방법</description>
     </item>
-    
   </channel>
 </rss>
