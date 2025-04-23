@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pep on tempkdw blog</title>
+    <title>Pep on tempkdw blog</title>
     <link>https://tempkdw.github.io/tags/pep/</link>
-    <description>Recent content in pep on tempkdw blog</description>
+    <description>Recent content in Pep on tempkdw blog</description>
     <image>
       <title>tempkdw blog</title>
       <url>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.146.7</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 23 Sep 2022 14:15:00 +0900</lastBuildDate>
     <atom:link href="https://tempkdw.github.io/tags/pep/index.xml" rel="self" type="application/rss+xml" />
