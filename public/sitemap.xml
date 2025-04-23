@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tempkdw.github.io/posts/drf-spectacular-versioning/</loc>
+    <lastmod>2025-04-23T16:53:56+09:00</lastmod>
+  </url><url>
+    <loc>https://tempkdw.github.io/posts/</loc>
+    <lastmod>2025-04-23T16:53:56+09:00</lastmod>
+  </url><url>
+    <loc>https://tempkdw.github.io/</loc>
+    <lastmod>2025-04-23T16:53:56+09:00</lastmod>
+  </url><url>
     <loc>https://tempkdw.github.io/tags/clean-code/</loc>
+    <lastmod>2023-12-18T14:43:45+09:00</lastmod>
+  </url><url>
+    <loc>https://tempkdw.github.io/tags/default-parameter/</loc>
     <lastmod>2023-12-18T14:43:45+09:00</lastmod>
   </url><url>
     <loc>https://tempkdw.github.io/posts/default_parameter/default_parameter/</loc>
@@ -14,9 +26,6 @@
     <loc>https://tempkdw.github.io/posts/mixin_class/</loc>
     <lastmod>2023-12-18T14:43:45+09:00</lastmod>
   </url><url>
-    <loc>https://tempkdw.github.io/posts/</loc>
-    <lastmod>2023-12-18T14:43:45+09:00</lastmod>
-  </url><url>
     <loc>https://tempkdw.github.io/tags/python/</loc>
     <lastmod>2023-12-18T14:43:45+09:00</lastmod>
   </url><url>
@@ -26,7 +35,13 @@
     <loc>https://tempkdw.github.io/tags/</loc>
     <lastmod>2023-12-18T14:43:45+09:00</lastmod>
   </url><url>
-    <loc>https://tempkdw.github.io/</loc>
+    <loc>https://tempkdw.github.io/tags/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81/</loc>
+    <lastmod>2023-12-18T14:43:45+09:00</lastmod>
+  </url><url>
+    <loc>https://tempkdw.github.io/tags/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/</loc>
+    <lastmod>2023-12-18T14:43:45+09:00</lastmod>
+  </url><url>
+    <loc>https://tempkdw.github.io/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</loc>
     <lastmod>2023-12-18T14:43:45+09:00</lastmod>
   </url><url>
     <loc>https://tempkdw.github.io/tags/cpython/</loc>
