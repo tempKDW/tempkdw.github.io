@@ -23,7 +23,15 @@ $ sbcl --load quicklisp.lisp
 ### emacs lisp extension 인 slime 설정
 quicklisp 에 자체 내장되어 있으므로 이걸 쓰도록 한다.
 
-따로 설치할 경우 emacs 내에서 충돌이 발생하는 일이 생기니 주의.
+`$ find ~ -name "swank.lisp"` 로 확인하여 quicklisp 폴더 내에 존재한다면 있는것.
+
+`$ ln -s ~/quicklisp/dists/quicklisp/software/slime-v2.30/ ~/quicklisp/local-projects/slime-v2.30`
+
+`quicklisp/local-projects` 안에 symlink 를 생성하여 주면 된다. 
+
+quicklisp 내장 외에 따로 slime 를 설치할 경우에도 위의 경로에 symlink 를 생성하면 문제가 생기지 않을 것이나 해보지는 않았다.
+
+symlink 생성없이 따로 설치하여 사용하면 충돌 발생하니 주의.
 
 ```
 # ~/.emacs
