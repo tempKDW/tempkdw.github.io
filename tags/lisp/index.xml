@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lisp on tempkdw blog</title>
+    <link>https://tempkdw.github.io/tags/lisp/</link>
+    <description>Recent content in Lisp on tempkdw blog</description>
+    <image>
+      <title>tempkdw blog</title>
+      <url>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://tempkdw.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.6</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 29 May 2025 21:41:45 +0900</lastBuildDate>
+    <atom:link href="https://tempkdw.github.io/tags/lisp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steel bank common lisp 으로 webserver 띄우기</title>
+      <link>https://tempkdw.github.io/posts/start-web-server-with-sbcl/</link>
+      <pubDate>Thu, 29 May 2025 21:41:45 +0900</pubDate>
+      <guid>https://tempkdw.github.io/posts/start-web-server-with-sbcl/</guid>
+      <description>&lt;h3 id=&#34;emacs-설치&#34;&gt;emacs 설치&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;brew install emacs&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;steel-bank-common-lisp-설치&#34;&gt;steel bank common lisp 설치&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;brew install sbcl&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;emacs-package-관리자-quicklisp-설치&#34;&gt;emacs package 관리자 quicklisp 설치&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ curl -O https://beta.quicklisp.org/quicklisp.lisp
+$ curl -O https://beta.quicklisp.org/quicklisp.lisp.asc
+$ sbcl --load quicklisp.lisp
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;중간 중간 나오는 명령어를 따라주면 된다.&lt;/p&gt;
+&lt;h3 id=&#34;emacs-lisp-extension-인-slime-설정&#34;&gt;emacs lisp extension 인 slime 설정&lt;/h3&gt;
+&lt;p&gt;quicklisp 에 자체 내장되어 있으므로 이걸 쓰도록 한다.&lt;/p&gt;
+&lt;p&gt;따로 설치할 경우 emacs 내에서 충돌이 발생하는 일이 생기니 주의.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# ~/.emacs
+
+(add-to-list &amp;#39;load-path &amp;#34;~/quicklisp/dists/quicklisp/software/slime-v2.30/&amp;#34;)
+
+(require &amp;#39;slime-autoloads)
+;; SLIME 설정
+(setq inferior-lisp-program &amp;#34;sbcl&amp;#34;)
+(setq slime-net-coding-system &amp;#39;utf-8-unix)
+
+(slime-setup &amp;#39;(slime-fancy))
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;경로는 다를수 있으니 체크&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
